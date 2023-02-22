@@ -8,7 +8,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,32 +19,30 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 328px;
-    height: 480px;
-    border-radius: 30px;
+    max-width: 340px;
+    padding: 1rem;
+    border-radius: 0.625rem;
     background-color: white;
 }
 
 img{
-    width: 93%;
-    border-radius: 30px;
-    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 0.625rem;
 }
 
 .text{
     text-align: center;
-    margin: 10px 20px;
-    padding: 10px;
+    margin: 0.625rem;
+    font-size: 0.75rem;
 }
 
-h3{
+h1{
     color:hsl(218, 44%, 22%);
     font-weight: 700;
 }
 
 p{
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 0.625rem;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
 }
