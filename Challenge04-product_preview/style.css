@@ -1,0 +1,136 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(30, 38%, 92%) ;
+}
+
+.container{
+    margin: 3rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.img{
+    background: url('images/image-product-mobile.jpg') no-repeat top left;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 270px;
+    border-radius: 1rem 1rem 0 0;
+    
+}
+
+.content{
+    max-width: 600px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.description h1{
+    color:hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 6px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+}
+
+.description h2{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    font-family:Fraunces;
+    font-weight: 700;
+}
+
+.description p{
+    margin: 1rem 0;
+    color:hsl(228, 12%, 48%);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    font-family: Fraunces;
+}
+
+.price h1{    
+    color: hsl(158, 36%, 37%);
+    font-size: 2.5rem;
+    margin-right: 1.5rem;
+}
+
+.price h2{
+    color:hsl(228, 12%, 48%) ;
+    text-decoration: line-through;
+    font-size: 1.2rem;
+}
+
+.cart{
+    margin-top: 1rem;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(158, 36%, 37%);
+    height: 3.5rem;
+}
+
+.cart:hover{
+    cursor: pointer;
+    background-color: hsl(156, 59%, 17%);
+}
+
+.cart h1{
+    font-family: Montserrat;
+    margin-left: 0.7rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+@media  screen and (min-width:800px) {
+    body{
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        height: 600px;
+        max-width: 800px;
+    }
+    .img{
+        width: 55%;
+        background: url('images/image-product-desktop.jpg') no-repeat top left;
+        background-size: 100%;
+        min-height: 600px;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .content{
+        width: 45%;
+        max-width: 900px;
+        border-radius: 0 1rem 1rem 0;
+        padding: 2rem;
+    }
+    .description > h2,p{
+        margin: 2rem 0  ;
+    }
+    .price{
+        margin: 2rem 0;
+    }  
+}
