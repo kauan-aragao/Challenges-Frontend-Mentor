@@ -1,0 +1,37 @@
+body{
+    font-family: Outfit,sans-serif ;
+    background-color: hsl(217, 54%, 11%);
+  }
+
+#card{
+    background-color:  hsl(216, 50%, 16%);
+}
+
+.color-1{
+    color: hsl(216, 21%, 45%);
+}
+
+.color-2{
+    color: hsl(178, 100%, 50%);
+}
+
+#name:hover,#creator:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%) ;
+}
+
+#nft-img{
+    background: url('images/image-equilibrium.jpg') no-repeat top left ;
+    background-size: 100% 100%;
+}
+
+#hover-status{
+    opacity: 0;
+}
+
+#hover-status:hover{
+    background-color: hsla(178, 100%, 50%,0.6) ;
+    cursor: pointer;
+    opacity: 1;
+}
+  
