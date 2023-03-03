@@ -1,0 +1,63 @@
+/* Custom Styles */
+@keyframes openMenu {
+    from{translate: 100%;}
+    to{translate: 0%;}
+}
+
+@keyframes closeMenu {
+    from{translate: 0%;}
+    to{
+        display: none;
+        translate: 100%;
+    }
+}
+
+.closemenu{
+    animation-name: closeMenu;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;    
+}
+
+.menu{
+    animation-name: openMenu;
+    animation-duration: 0.75s;
+}
+
+body{
+    font-family: Inter,sans-serif;
+}
+
+.color-link{
+    letter-spacing: 5px;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.color-link:hover{
+    background-color: hsl(240, 100%, 5%) ;
+    color: white;
+}
+
+.link:hover{
+    color: hsl(5, 85%, 63%) ;
+}
+
+#news{
+    background-color: hsl(240, 100%, 5%);
+}
+
+#news h1{
+    color: hsl(35, 77%, 62%);
+}
+
+#more h2{
+    color: hsl(240, 100%, 5%);
+}
+
+#more h2:hover,#newitem h2:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+
+.title{
+    color: hsl(240, 100%, 5%);
+}
