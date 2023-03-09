@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    font-family: Rubik,sans-serif;
+    background-color: hsl(226, 43%, 10%);    
+}
+
+.color-main{
+    background-color: hsl(235, 46%, 20%);
+}
+
+#user{
+    background-color: hsl(246, 80%, 60%);
+}
+
+.text-color{
+    color: hsl(235, 45%, 61%);
+}
+
+#work{
+    background-color: hsl(15, 100%, 70%);
+}
+
+#work img{
+    width: 79px;
+    height: 79px;
+}
+
+#play{
+    background-color: hsl(195, 74%, 62%);
+}
+
+#play img{
+    width: 76px;
+    height: 77px;
+}
+
+#study{
+    background-color: hsl(348, 100%, 68%);
+}
+
+#study img{
+    height: 79px;
+    width: 79px;
+}
+
+#exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+
+#exercise img{
+    width: 81px;
+    height: 55px;
+}
+
+#social{
+    background-color: hsl(264, 64%, 52%);
+}
+
+#social img{
+    width: 75px;
+    height: 100px;
+}
+
+#self{
+    background-color: hsl(43, 84%, 65%);
+}
+
+#self img{
+    width: 67px;
+    height: 67px;
+}
+
+.data:hover{
+    background-color: hsl(235, 53%, 53%);
+    cursor: pointer;
+}
+
+@media screen and (min-width:900px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+}
